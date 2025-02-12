@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import LabelEncoder
 
 # Load dataset
-database_path = "database/database.csv"
+database_path = "database.csv"
 df = pd.read_csv(database_path)
 
 # Check column names for debugging
